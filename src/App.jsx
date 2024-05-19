@@ -1,3 +1,4 @@
+import Footer from './components/Footer';
 import Header from './components/Header'
 import Login from './pages/Login'
 import Principal from './pages/Principal'
@@ -16,6 +17,7 @@ function App() {
             <Route path="/Principal" element={<Principal />}></Route>
             <Route path="/Twofa" element={<Twofa />}></Route>
           </Routes>
+        <Footer/>
     </Router>
 
 

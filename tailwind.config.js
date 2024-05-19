@@ -8,6 +8,7 @@ export default {
     extend: {
       colors: {
         'Azul-oscuro': '#0081A7',
+        'Azul-Oscuro1': '022B3A',
         
       }
     },
