@@ -4,8 +4,8 @@ import logo from '../img/logo.png'
 const Header = () => {
     return (
 
-        <header className="text-gray-600 body-font">
-            <div className="container bg-emerald-950 mx-auto flex flex-wrap p-5 flex-col md:flex-row justify-center">
+        <header className="text-gray-600 body-font w-screen">
+            <div className="bg-emerald-950 flex md:flex-row justify-center">
                 <a className="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-900 lg:items-center justify-center mb-4 md:mb-0">
                     <img
                         src={logo}
